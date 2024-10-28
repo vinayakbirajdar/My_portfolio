@@ -1,0 +1,429 @@
+html{
+	scroll-behavior: smooth;
+}
+.nav-bar{
+	background: black;
+	position: fixed;
+	width: 100%;
+/*	height: 20px;*/
+	z-index: 1;
+
+}
+
+.nav-menu{
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	padding: 10px;
+
+}
+.nav-menu:hover{
+	color: rgb(37, 219, 175);
+	text-decoration: underline;
+}
+
+.nav-con-menu{
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	border: white;
+}
+
+
+.home{
+	height: 600px;
+	width: 100%;
+	border: 2px white;
+	background: black;
+	padding: 80px;
+}
+
+.name{
+	color: rgb(37, 219, 175);
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+
+.role{
+	color: white;
+	font-size: 70px;
+}
+
+.role-1{
+	color: rgb(37, 219, 175);
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 70px;
+}
+
+.name-info{
+	color: white;
+}
+
+#image{
+	margin-left: 90px;
+	margin-top: 50px;
+	border-radius: 40px;
+	transition-duration: 1s;
+
+}
+#image:hover{
+	box-shadow: 5px 5px 5px rgb(37, 219, 175);
+	transform: scale(1.1);
+}
+
+
+.cv-btn{
+	color: rgb(37, 219, 175);
+
+	height: 60px;
+	width: 150px;
+	background-color:black;
+	font-size: 15px;
+	font-weight: bolder;
+	border: 3px solid rgb(37, 219, 175);
+	border-radius: 5px;
+	margin-top: 50px;
+	transition-duration: 1s;
+}
+
+.cv-btn:hover{
+	background: white;
+	color: black;
+	border: 3px solid white;
+	transform: scale(1.1);
+
+}
+
+.cv{
+	color: white;
+	text-decoration: none;
+
+}
+
+.cv:hover{
+	color: black;
+	text-decoration: none;
+
+}
+
+.about{
+	height: 850px;
+	width: 100%;
+/*	background: red;*/
+}
+
+.heading{
+	font-size: 80px;
+	font-weight: bolder;
+	text-align: center;
+	font-family: sans-serif;
+
+}
+
+.about-info{
+	font-weight: bolder;
+	font-size: 20px;
+	text-align: justify;
+	margin-left: 20px;
+	margin-right: 10px;
+
+}
+
+.skill{
+	height: 650px;
+	width: 100%;
+	background: black;
+	margin-top: 10px;
+}
+#noBullet{
+	
+	list-style: none; 
+	padding: 0;      
+	margin: 0;       
+	  
+}
+
+.skill-heading{
+	padding: 30px;
+	font-size: 80px;
+	font-weight: bolder;
+	text-align: center;
+	font-family: sans-serif;
+	color: rgb(37, 219, 175);
+
+}
+
+.skill-h2{
+	color: rgb(37, 219, 175);
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+	font-variant: small-caps;
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: sans-serif;
+}
+
+.skill-info{
+	padding: 50px;
+	color: white;
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+
+}
+
+.tbl td {
+	box-shadow: 0px 0px 10px white;
+/*	padding: 40px;	*/
+	border-radius: 20px;
+/*	width: 0%;*/
+	transition-duration: 1s;
+}
+
+.tbl  td:hover{
+	transform: scale(1.05);
+	box-shadow: 5px 5px 5px;
+ 	color: rgb(37, 219, 175);
+}
+
+.tbl {
+    border-collapse: separate; 
+    border-spacing: 28px; 
+}
+
+.project-main{
+	height: 1050px;
+	width: 100%;
+	background: white;
+}
+
+
+.card-img-top{
+	height: 150px;
+	width: 150px;
+	margin-left: 200px;
+}
+
+.card-title{
+	font-size: 20px;
+	font-weight: bolder;
+	font-family: sans-serif;
+}
+
+.card{
+	background: black;
+	border-radius: 50px;
+	padding: 50px;
+	margin:10px 10px 0px 10px;
+
+}
+
+.sub-heading2
+{
+	color: rgb(37, 219, 175);
+	font-weight: bolder;
+	font-size: 35px;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	margin-left: 80PX;
+	margin-top: 40PX;
+}
+.sub-heading1{
+	color: rgb(37, 219, 175);
+	font-weight: bolder;
+	font-size: 35px;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	margin-left: 150PX;
+	margin-top: 40PX;
+
+}
+
+.cardAnimation{
+	box-shadow: 0px 0px 10px white;
+/*	padding: 40px;	*/
+	border-radius: 20px;
+/*	width: 0%;*/
+	transition-duration: 1s;
+}
+.cardAnimation:hover{
+	transform: scale(0.95);
+	box-shadow: 5px 5px 5px;
+ 	color: rgb(37, 219, 175);
+
+}
+
+.card-info{
+	color: white;
+	font-weight: bolder;
+	font-size: 23px;
+	text-align: justify;
+}
+
+.project-card:hover{
+	color: black;
+
+}
+
+.contact
+{
+	height: 700px;
+	width: 100%;
+	background: black;
+
+}
+
+.contact-heading{
+	text-align: center;
+	color: rgb(37, 219, 175);
+	font-weight: bolder;
+	font-size: 60px;
+	padding: 30px;
+
+}
+
+.form{
+	width: 50%;
+	margin-left: 50px;
+	border: 5px solid rgb(37, 219, 175);
+	padding: 30px;
+	border-radius: 35px;
+
+}
+
+.contact-info{
+	color: white;
+}
+
+.input-box{
+	width: 100%;
+}
+
+.list{
+	font-size: 30px;
+	color: rgb(37, 219, 175);
+	font-weight: bolder;
+	font-family: sans-serif;
+	padding: 20px;
+	text-decoration: none;
+}
+.footer{
+	height: 70px;
+	width: '50%';
+	background: white;
+	border: 2px solid black;
+}
+
+.footer-info{
+	display: inline-block;
+	margin-left: 220px;
+	margin-top: 20px;
+}.footer-img{
+	height: 40px;
+	width: 40px;
+	border-radius: 10px;
+	padding: 7px;
+}
+
+.emoji{
+	font-size: 35px;
+}
+
+.btn{
+	color: rgb(37, 219, 175);
+
+	height: 50px;
+	width: 120px;
+	background-color:black;
+	font-size: 20px;
+	font-weight: bolder;
+	border: 3px solid rgb(37, 219, 175);
+	border-radius: 5px;
+	margin-top: 50px;
+	transition-duration: 0.5s;
+
+}
+
+.btn:hover
+{
+	color: black;
+	background: white;
+	border: white solid;
+}
+
+
+/* project window css */
+
+.p-main{
+	/* background-color: black; */
+	height: 55rem;
+	width: 100%;
+}
+.p-heading
+{
+	font-size: 30px;
+	color: white;
+	margin-left: 880px;
+	cursor: pointer;
+	font-variant: small-caps;
+
+}
+.p-heading:hover{
+	text-decoration: underline;
+	color: rgb(37, 219, 175);
+}
+p-table{
+	height: 200px;
+	width: 100%;
+	margin-top: 0%;
+}
+
+.p-container{
+	height: 55rem;
+	width: 100%;
+	background-color: black;
+	padding-top: 130px;
+	
+}
+.p-table{
+	
+	height: 200px;
+	width: 100%;
+	border-collapse: separate; 
+    border-spacing: 28px; 
+}
+
+.p-table td {
+	box-shadow: 0px 0px 10px white;
+	border-radius: 20px;
+	transition-duration: 1s;
+}
+
+.p-table  td:hover{
+	transform: scale(1.05);
+	box-shadow: 5px 5px 5px;
+ 	color: rgb(37, 219, 175);
+}
+
+.p-row{
+	height: 200px;
+}
+
+.p-data{
+	color: rgb(37, 219, 175);
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+	font-weight: bolder;
+
+}
+
+.p-subdata{
+	color: whitesmoke;
+	font-size: 20px;
+	
+}

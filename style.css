@@ -33,7 +33,7 @@ html{
 
 
 .home{
-	height: 600px;
+	height: auto;
 	width: 100%;
 	border: 2px white;
 	background: black;
@@ -78,7 +78,7 @@ html{
 .cv-btn{
 	color: rgb(37, 219, 175);
 
-	height: 60px;
+	height: auto;
 	width: 150px;
 	background-color:black;
 	font-size: 15px;
@@ -110,7 +110,7 @@ html{
 }
 
 .about{
-	height: 850px;
+	height: auto;
 	width: 100%;
 /*	background: red;*/
 }
@@ -133,7 +133,7 @@ html{
 }
 
 .skill{
-	height: 650px;
+	height: auto;
 	width: 100%;
 	background: black;
 	margin-top: 10px;
@@ -196,15 +196,15 @@ html{
 }
 
 .project-main{
-	height: 1050px;
+	height: auto;
 	width: 100%;
 	background: white;
 }
 
 
 .card-img-top{
-	height: 150px;
-	width: 150px;
+	height: auto;
+	width: auto;
 	margin-left: 200px;
 }
 
@@ -271,7 +271,7 @@ html{
 
 .contact
 {
-	height: 700px;
+	height: auto;
 	width: 100%;
 	background: black;
 
@@ -312,7 +312,7 @@ html{
 	text-decoration: none;
 }
 .footer{
-	height: 70px;
+	height: auto;
 	width: '50%';
 	background: white;
 	border: 2px solid black;
@@ -426,4 +426,147 @@ p-table{
 	color: whitesmoke;
 	font-size: 20px;
 	
+}
+
+/* ================== Media Queries for Responsiveness ================== */
+
+/* For tablets and smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+    /* Home Section */
+    .home {
+        padding: 40px;
+        height: auto;
+    }
+    .home-tbl {
+        display: block;
+    }
+    .home-tbl td {
+        display: block;
+        width: 100% !important;
+        text-align: center;
+    }
+    #image {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .role, .role-1 {
+        font-size: 40px;
+    }
+
+    /* About Section */
+    .about {
+        height: auto;
+        padding: 20px;
+    }
+    .about table {
+        display: block;
+    }
+    .about td {
+        display: block;
+        width: 100% !important;
+        text-align: center;
+    }
+    .about-info {
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    /* Skills Section */
+    .skill {
+        height: auto;
+        padding: 20px;
+    }
+    .tbl {
+        display: block;
+    }
+    .tbl td {
+        display: block;
+        width: 100% !important;
+        margin: 10px 0;
+    }
+
+    /* Projects Section */
+    .project-main {
+        height: auto;
+        padding: 20px;
+    }
+    .card-group {
+        display: block;
+    }
+    .card {
+        margin: 10px 0;
+    }
+    .card-img-top {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Contact Section */
+    .contact {
+        height: auto;
+        padding: 20px;
+    }
+    .contact table {
+        display: block;
+    }
+    .contact td {
+        display: block;
+        width: 100% !important;
+        text-align: center;
+    }
+    .form {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Footer */
+    .footer-info {
+        margin-left: 1000px;
+		width: 100%;
+		justify-content: space-between;	
+    }
+	
+}
+
+/* For mobile phones (max-width: 480px) */
+@media (max-width: 480px) {
+    /* Home Section */
+    .role, .role-1 {
+        font-size: 30px;
+    }
+    .name-info {
+        font-size: 16px;
+    }
+
+    /* About Section */
+    .about-info {
+        font-size: 16px;
+    }
+
+    /* Skills Section */
+    .skill-h2 {
+        font-size: 24px;
+    }
+    .skill-info {
+        font-size: 16px;
+    }
+
+    /* Projects Section */
+    .sub-heading1, .sub-heading2 {
+        font-size: 24px;
+        margin-left: 0;
+    }
+
+    /* Contact Section */
+    .contact-heading {
+        font-size: 40px;
+    }
+    .list {
+        font-size: 24px;
+    }
+
+    /* Footer */
+    .footer-info {
+        margin-left: 5px;
+    }
 }

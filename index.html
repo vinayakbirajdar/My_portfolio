@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Vinayak portfolio</title>
+
+<!-- font integration  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!-- email js  initilization code -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "xNXcrYWSjrwR99bd4",
+      });
+   })();
+</script>
+<script src="script.js"></script>
+</head>
+<body>
+
+    <!-- navbar starts here -->
+    <div class="nav-bar" >
+        <nav class="navbar navbar-expand-lg navbar-light">
+  <img src="./src/assets/images/icon.png" height="40px" width="40px">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link nav-info" href="#home"><span class="nav-menu">Home</span></span> <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="#About"><span class="nav-menu">About</span> <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="#skill"><span class="nav-menu">Skills</span> <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="#project"><span class="nav-menu">Project</span> <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="#contact"><span class="nav-menu">Contact</span> <span class="sr-only">(current)</span></a>
+      </li>
+      <ul>
+          
+  </div>
+</nav>
+    </div>
+    <!-- navbar ends here -->
+
+    <!-- home section start here -->
+    <div class="home" id="home">
+        <table class="home-tbl">
+            <td width="50%" >
+                <img src="./src/assets/images/profile.png" height="450px" width="350px" id="image">
+            </td>
+            <td>
+                <h1 class="name">Vinayak Birajdar</h1>
+                <h2 class="role">I'm a Software Developer</h1>
+                <p class="info">A passionate software developer with expertise in Java, JavaScript, and React Native. Skilled in building fast, scalable, and user-friendly cross-platform mobile applications..</p>
+                <div class="cv-btn">
+                  <a class="cv" href="./src/assets/resume/Resume.pdf" target="_blank">DOWNLOAD CV</a>
+              </div>
+            </td>
+        </table>
+    </div>
+
+    <!-- About  -->
+
+    <div class="about-container" id="About">
+      <div>
+      <h1 class="skill-heading">About Me</h1>
+      <div  class="about-sub-container"> 
+        <div class="about-info-container">Hey there! 👋 I’m Vinayak Birajdar, a dedicated and passionate Software Developer currently working at Capternal Software Private Limited. My primary focus is on React Native, where I build modern and user-friendly mobile applications.<br><br>
+
+          I have hands-on experience in developing projects using Core Java, SQL, and React Native. I am skilled in creating efficient, scalable, and maintainable applications. Additionally, I have a good grasp of HTML, CSS, JavaScript, and J2EE, which empowers me to build full-stack applications with ease.<br>
+          
+          Currently, I am working on a project where I am responsible for converting a website into a mobile app using React Native. I constantly strive to enhance my skills by staying updated with the latest technologies and applying them to real-world projects.<br><br>
+          
+          I am passionate about problem-solving and always eager to learn new things. My goal is to deliver top-quality solutions that provide excellent user experiences.<br><br>
+          
+          Let’s connect and build something amazing together!</div>
+        <div  class="about-gif-container">
+          <img src="./src/assets/images/image.png" alt="About Me Gif"  width="450" height="450">
+        </div>
+      </div>
+      </div>
+
+    </div>
+
+
+<!-- Skills -->
+    <div class="skill-container" id="skill">
+      <h1 class="skill-heading">SKILLS</h1>
+      <div class="skills-wrapper">
+          <div class="skill-card">
+              <h3 class="skill-h2">LANGUAGES</h3>
+              <ul class="skill-info">
+                  <li>Core Java</li>
+                  <li>JavaScript</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>SQL</li>
+                  <li>J2EE</li>
+              </ul>
+          </div>
+  
+          <div class="skill-card">
+              <h3 class="skill-h2">TOOL'S</h3>
+              <ul class="skill-info">
+                  <li>VS Code</li>
+                  <li>Eclipse IDE</li>
+                  <li>Github</li>
+                  <li>MySQL Workbench</li>
+              </ul>
+          </div>
+  
+          <div class="skill-card">
+              <h3 class="skill-h2">OPERATING SYSTEMS</h3>
+              <ul class="skill-info">
+                  <li>Windows</li>
+                  <li>Android</li>
+                  <li>iOS</li>
+              </ul>
+          </div>
+  
+          <div class="skill-card">
+              <h3 class="skill-h2">API'S AND INTERFACES</h3>
+              <ul class="skill-info">
+                <li>React Native</li>
+                  <li>Collection</li>
+                  <li>JDBC</li>
+                  <li>Servlets</li>
+                  <li>Hibernate</li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  
+<div class="project-container" id="project">
+  <h1 class="project-heading">PROJECTS</h1>
+    <div class="projects-wrapper">
+        <div class="project-card">
+            <h3 class="project-title">Java Projects</h3>
+            <p class="project-description">Core Java Based Projects. Explore my hands-on experience with Java programming, including real-world applications and problem-solving techniques.</p>
+            <a href="./src/screens/javaScreen/index.html" class="project-link" target="_self">View Projects</a>
+        </div>
+
+        <div class="project-card">
+            <h3 class="project-title">Sql projects</h3>
+            <p class="project-description">SQL Based Projects. Discover my experience with database management and data manipulation using SQL, including creating and optimizing queries. </p>
+            <a href="#" class="project-link" target="_self">View Projects</a>
+        </div>
+
+        <div class="project-card">
+            <h3 class="project-title">Mobile Apps</h3>
+            <p class="project-description"> Mobile App Projects using React Native. Explore my work on cross-platform mobile applications with smooth UI and seamless performance.</p>
+            <a href="../mobilAppScreen/" class="project-link" target="_self">View Projects</a>
+        </div>
+
+        <div class="project-card">
+            <h3 class="project-title">Web-Services</h3>
+            <p class="project-description"> Responsive Websites using HTML and CSS. Discover my modern and visually appealing website designs with clean layouts and smooth user experience.</p>
+            <a href="./src/screens/WebTechScreen/index.html" class="project-link" target="_self">View Projects</a>
+        </div>
+    </div>
+</div>
+
+    <!-- Contact section starts here -->
+<div class="contact" id="contact">
+  <div class="contact-container">
+      <div class="form-container">
+          <form onsubmit="sendMail(); return false;">
+              <div class="form-group">
+                  <h1 class="contact-heading">CONTACT ME!</h1>
+                  <label for="email" class="form-text">Email address</label>
+                  <input type="email" class="form-control input-box" id="email" aria-describedby="emailHelp" placeholder="Your Email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                  <label for="name" class="form-text">Name</label>
+                  <input type="text" class="form-control input-box" id="name" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                  <label for="comment" class="form-text">Comment</label>
+                  <textarea class="form-control input-box" id="comment" placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+      </div>
+
+  </div>
+</div>
+
